@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ft"
+        android:title="ft inches" />
+    <item
+        android:id="@+id/oo"
+        android:title="ft inches" />
+    <item
+        android:id="@+id/werw"
+        android:title="ft inches" />
+</menu>

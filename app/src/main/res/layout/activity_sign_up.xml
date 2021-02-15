@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fb="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+    android:layout_height="match_parent"
+     tools:context=".SignUp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/toolbar"
+        android:background="#16417E"
+
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+         android:textColor="@android:color/black"
+        android:text="@string/hyperlink"
+        android:textColorLink="#16417E"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="30dp"
+        android:text="Sign Up with Email"
+        android:textAllCaps="false"
+        android:id="@+id/email"
+        android:textColor="@android:color/white"
+        android:background="#16417E"
+
+        />
+
+    <View
+        android:layout_width="150dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="30dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="OR"
+        android:textColor="@android:color/black"
+
+        android:textSize="17dp"
+        android:layout_marginLeft="190dp"
+        />
+    <View
+        android:layout_width="150dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="225dp"
+        android:background="@android:color/darker_gray"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <com.shaishavgandhi.loginbuttons.FacebookButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/my_button_bg"
+            android:text="Sign In With Facebook"
+            android:textAllCaps="false"
+            app:iconSize="30sp"
+
+
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="45dp"
+        android:text="@string/we_will_never_post_anything_without_your_permission"
+        android:textColor="@android:color/black"
+        />
+
+</RelativeLayout>

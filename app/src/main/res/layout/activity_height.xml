@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".HeightActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <Button
+
+            android:id="@+id/Next1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="2dp"
+            android:background="@android:color/transparent"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp"
+        android:text="Height"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+
+    <EditText
+        android:id="@+id/height_ed"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="130dp"
+        android:focusableInTouchMode="false"
+        android:hint="0 ft, 0 in"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:text="Current weight"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/weighEt"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/my_button_bg"
+        android:hint="0lbs"
+        android:inputType="number"
+
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:text="We use this information to calculate an accurate calorie goal for you."
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        style="@style/SpinnerTheme"
+        android:layout_width="60dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="150dp"
+        android:popupTheme="@android:style/ThemeOverlay.Material.Light"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

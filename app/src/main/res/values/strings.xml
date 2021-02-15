@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyFitnessPal</string>
+    <string name="hyperlink">Have an  <a href="https://learntodroid.com">Under Armour Account</a>? You can use it to log in to MyFitnessPal.  </string>
+    <string name="we_will_never_post_anything_without_your_permission">We will never post anything without your permission</string>
+    <string name="terms">By Continuing, you agree to our <a href="https://learntodoroid.com">Terms of Service</a> and <a href="https://learntodoroid.com">Privacy Policy</a> </string>
+    <string name="email">By joining, you agree to the <a href="https://leantodoroid.com">Privacy Policy</a> and <a href="https:learntodoroid.com">Terms</a></string>
+    <string name="checkbox">Yes,I would like to receive by email the latest news, innovation updates, and offers from MyFitnessPal and Under Armour</string>
+    <string name="recognized"> <a href=" https://learn">Email not recognized? </a></string>
+    <string name="email_error">Please enter a email address</string>
+    <string name="error_invalid_email">Email is not valid</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
+    <string name="RS">u20B9</string>
+    <string name="action_settings">Settings</string>
+    <string name="time_picker_example">Time Picker Example</string>
+    <string name="time_pick">Pick the time and press save button</string>
+    <string name="time_save">Save</string>
+    <string name="time_selected"></string>
+    <string name="time_current">The Time is:</string>
+</resources>
